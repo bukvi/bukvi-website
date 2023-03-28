@@ -289,9 +289,10 @@ header .search-bar-container label:hover{
     flex:1 1 40rem;
 }
 .book .row .image img{
-    width: 400px;
-    height:400px;
-    clip-path: circle(50% at 50% 50%);
+    width: 300px;
+    height:300px;
+    clip-path: circle(50% at 50% 50%);;
+   
 
     
 }
@@ -447,7 +448,7 @@ color:var(--orange);
    }
 .contact .row .image img{
     width:100%;
-    clip-path:polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);;
+    clip-path:ellipse(25% 40% at 50% 50%);
    }
 .contact .row form{
     flex: 1 1 50rem;
@@ -502,7 +503,8 @@ color:var(--orange);
 
 
 body{
-  height:300rem;  
+  height:300rem;
+   
 }
 
 
@@ -545,7 +547,7 @@ header .navbar a{
 
 @media (max-width:450px){
     html{
-        font-size:50%;
+        font-size:45%;
     }
 }
 
